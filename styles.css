@@ -1,0 +1,99 @@
+main{
+  /* height: 200px; */
+}
+.heading{
+  margin-bottom: 45px;
+  font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 3.2em;
+	color: #c70039;
+	text-shadow: 1px 1px 1px #5a0b0d;
+}
+.drummer{
+	position: relative;
+	width: 600px;
+	margin: auto ;
+
+}
+.drum_img{
+  display: block;
+  margin:auto;
+}
+.kids-drum{
+  position: absolute;
+  left:50px;
+  top:50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #abc2e8;
+}
+.key {
+	display: inline-block;
+	/* transition: all ease-in-out .042s; */
+	position: absolute;
+	background: #00005c;
+    font-size: 2em;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #aaa;
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+    z-index: 2;
+}
+.key.e{
+  bottom: 470px;
+  left: 100px;;
+}
+.kbd{
+  margin-top:10px;
+  color: white;
+  cursor: pointer;
+}
+.key.r{
+  bottom: 31rem;
+  left: 30rem;
+  z-index: 1;
+}
+.key.i{
+  bottom: 405px;
+  left: 486px;
+
+}
+.key.k{
+  bottom: 405px;
+  left: 548px;
+
+}
+.key.f{
+  bottom: 230px;
+  left: 124px;
+}
+.key.g{
+  bottom: 340px;
+  left: 210px;
+
+}
+.key.h{
+  bottom: 340px;
+  left: 380px;
+
+}
+.key.j{
+  bottom: 260px;
+  left: 420px;
+
+}
+.key.v{
+  bottom: 115px;
+  left: 290px;
+  }
+.key.b{
+  bottom: 115px;
+  left: 370px;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
